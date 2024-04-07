@@ -1,27 +1,23 @@
 # My Awesome Blog Website
 
-Welcome to my blog website project! This is a full-stack application built with React.js for the frontend and AppRight for the backend.
+This is a simple blog website created with React for the frontend and Appwrite as the backend service.
 
 ## Features
 
-- User-friendly interface for reading and navigating through blog posts.
-- Secure authentication and authorization system.
-- CRUD (Create, Read, Update, Delete) operations for managing blog posts.
-- Responsive design for optimal viewing on various devices.
+- **User Authentication**: Users can sign up, log in, and log out securely using Appwrite authentication.
+- **Create and Publish Posts**: Authenticated users can create new blog posts and publish them.
+- **View and Interact with Posts**: Users can view published posts and interact with them by commenting, liking, etc.
+- **Responsive Design**: The website is designed to be fully responsive and accessible across different devices.
 
 ## Technologies Used
 
-- **Frontend:**
-  - React.js
-  - Redux for state management
-  - React Router for routing
-  - Styled Components for styling
-
-- **Backend:**
-  - AppRight
-  - Node.js
-  - Express.js
-  - MongoDB for database
+- **Frontend**: React.js
+- **Backend**: Appwrite
+- **Styling**: CSS or CSS preprocessor (e.g., Sass)
+- **Routing**: React Router
+- **State Management**: React Context API or Redux (optional)
+- **HTTP Requests**: Axios or Fetch API
+    
 
 ## Setup Instructions
 
