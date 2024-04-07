@@ -20,7 +20,7 @@ function Login() {
                 const userData = await authservice.GetCurrentUser()
                 if (userData) dispatch(authLogin(userData))             
         }
-        navigate('/all-posts')
+        navigate('/')
         window.location.reload()
         } catch (error) {
             setError(error.message)
